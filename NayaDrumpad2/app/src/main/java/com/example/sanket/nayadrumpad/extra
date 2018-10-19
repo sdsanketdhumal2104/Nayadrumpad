@@ -1,0 +1,287 @@
+ private int sound1;
+    private int sound2;
+    private int sound3;
+    private int sound4;
+    private int sound5;
+    private int sound6;
+    private int sound7;
+    private int sound8;
+    private int sound9;
+    private int sound00;
+    private int sound11;
+
+
+    /*
+            sp = new SoundPool(2, AudioManager.STREAM_MUSIC,0);
+            sound1 = sp.load(getApplicationContext(),R.raw.sound1,1);
+            sound2 = sp.load(getApplicationContext(),R.raw.sound2,1);
+            sound3 = sp.load(getApplicationContext(),R.raw.sound3,1);
+            sound4 = sp.load(getApplicationContext(),R.raw.sound4,1);
+            sound5 = sp.load(getApplicationContext(),R.raw.sound5,1);
+            sound6 = sp.load(getApplicationContext(),R.raw.sound6,1);
+            sound7 = sp.load(getApplicationContext(),R.raw.sound7,1);
+            sound8 = sp.load(getApplicationContext(),R.raw.sound8,1);
+            sound9 = sp.load(getApplicationContext(),R.raw.sound9,1);
+            sound00 = sp.load(getApplicationContext(),R.raw.sound00,1);
+            sound11 = sp.load(getApplicationContext(),R.raw.sound11,1);
+
+    */
+
+
+/*
+    public void playsound1(View v)
+    {
+        sp.play(sound1,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound1");
+        }
+    }
+
+    public void playsound2(View v)
+    {
+        sp.play(sound2,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound2");
+        }
+    }
+
+    public void playsound3(View v)
+    {
+        sp.play(sound3,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound3");
+        }
+    }
+
+    public void playsound4(View v)
+    {
+        sp.play(sound5,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound4");
+        }
+    }
+
+    public void playsound5(View v)
+    {
+        sp.play(sound6,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound5");
+        }
+    }
+    public void playsound6(View v)
+    {
+        sp.play(sound7,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound6");
+        }
+    }
+    public void playsound7(View v)
+    {
+        sp.play(sound8,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound7");
+        }
+    }
+
+    public void playsound8(View v)
+    {
+        sp.play(sound4,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound8");
+        }
+    }
+
+    public void playsound9(View v)
+    {
+        sp.play(sound00,1.0f,1.0f,0,0,10f);
+        if(flag==true)
+        {
+            Music.add("sound9");
+        }
+    }
+
+    */
+
+
+     /*
+            btn1=(Button)findViewById(R.id.btn1);
+            btn1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.bamboo);
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            //  mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            // mediaPlayer.reset();
+                        }
+                    });
+                }
+            });
+
+            btn2=(Button)findViewById(R.id.btn2);
+            btn2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.bottle);
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            //   mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            //mediaPlayer.reset();
+                        }
+                    });
+                }
+            });
+
+            btn3=(Button)findViewById(R.id.btn3);
+            btn3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.clap1);
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            //  mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            //  mediaPlayer.reset();
+
+                        }
+                    });
+                }
+            });
+
+            btn4=(Button)findViewById(R.id.btn4);
+            btn4.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.sound4);
+
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            // mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            //  mediaPlayer.reset();
+
+                        }
+                    });
+                }
+            });
+
+            btn5=(Button)findViewById(R.id.btn5);
+            btn5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.sound5);
+
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            //  mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            //   mediaPlayer.reset();
+
+                        }
+                    });
+                }
+            });
+
+            btn6=(Button)findViewById(R.id.btn6);
+            btn6.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.sound6);
+
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            // mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            // mediaPlayer.reset();
+
+                        }
+                    });
+                }
+            });
+
+            btn7=(Button)findViewById(R.id.btn7);
+            btn7.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.sound7);
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            // mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            //mediaPlayer.reset();
+
+                        }
+                    });
+                }
+            });
+
+            btn8=(Button)findViewById(R.id.btn8);
+            btn8.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.sound8);
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            // mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            // mediaPlayer.reset();
+
+                        }
+                    });
+                }
+            });
+
+            btn9=(Button)findViewById(R.id.btn9);
+            btn9.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mediaPlayer=MediaPlayer.create(MainActivity.this,R.raw.sound9);
+
+
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(new OnCompletionListener() {
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            //  mediaPlayer.stop();
+                            MainActivity.this.mediaPlayer.release();
+                            //mediaPlayer.reset();
+                        }
+                    });
+                }
+            });
+
+            */
